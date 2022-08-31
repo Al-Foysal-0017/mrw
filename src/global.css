@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  /* background-color: #2e3435; */
+  /* background-color: #000; */
+}
+
+@font-face {
+  font-family: "Thunderbold Demo";
+  src: local("Thunderbold Demo"),
+    url("./assets/fonts/ThunderboldDemo.otf") format("truetype");
+  font-weight: normal;
+}

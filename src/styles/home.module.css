@@ -1,0 +1,114 @@
+.title {
+  font-family: "Thunderbold Demo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 44px;
+  margin-bottom: 0;
+  background-image: linear-gradient(90deg, #0247fe 0%, #4dd9ff 100%);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* width: 95%; */
+  margin: auto;
+  position: relative;
+  padding: 10px;
+  box-sizing: border-box;
+  color: #fff;
+  /* background: #2e3435; */
+  background: #000;
+  background-clip: padding-box;
+  border: solid 3px transparent;
+  border-radius: 30px;
+}
+
+.gradient_box:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  margin: -3px;
+  border-radius: inherit;
+  background: linear-gradient(
+    97.65deg,
+    #0247fe -0.45%,
+    #4dd9ff 33.12%,
+    #0247fe 64.48%,
+    #4dd9ff 90.77%
+  );
+}
+
+.desc {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+  padding: 0 10%;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 124px;
+}
+
+.itemTitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #fff;
+  width: 220px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.itemContent {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  /* text-align: center; */
+  color: #fff;
+  width: 220px;
+}
+
+@media screen and (max-width: 768px) {
+  .itemTitle {
+    font-size: 20px;
+    line-height: 24px;
+    width: 100%;
+  }
+  .itemContent {
+    font-size: 13px;
+    line-height: 16px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .itemTitle {
+    font-size: 25px;
+    line-height: 30px;
+    width: 100%;
+  }
+  .itemContent {
+    font-size: 15px;
+    line-height: 18px;
+  }
+}

@@ -1,0 +1,22 @@
+.carouselImg {
+  //   height: 280px;
+  //   width: 100%;
+  max-width: 250px;
+  max-height: 200px;
+  padding: 0 4px;
+}
+@media screen and (max-width: 640px) {
+  .carouselImg {
+    height: 234px;
+    width: 100%;
+    padding: 0 4px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .carouselImg {
+    height: 160px;
+    width: 100%;
+    padding: 0 4px;
+  }
+}

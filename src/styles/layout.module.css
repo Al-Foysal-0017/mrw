@@ -1,0 +1,45 @@
+/* <======= navbar =======> */
+.toolbar {
+  padding: 0 5rem !important;
+  border-bottom: 1px solid #03504f;
+}
+
+.navItem {
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  /* color: #12141d; */
+  color: #fff;
+  /* margin-left: 10px; */
+  margin-right: 16px;
+}
+
+.navItemActive {
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #64c0da;
+  /* margin-left: 10px; */
+  margin-right: 16px;
+}
+
+.navItem button,
+.navItemActive button {
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 768px) {
+  .toolbar {
+    padding: 0 2rem !important;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .toolbar {
+    padding: 0 1rem !important;
+  }
+}

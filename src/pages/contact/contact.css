@@ -1,0 +1,14 @@
+.contactFormContainer {
+  /* box-shadow: 3px 7px 21px 7px rgba(6, 78, 253, 0.75);
+  -webkit-box-shadow: 3px 7px 21px 7px rgba(6, 78, 253, 0.75);
+  -moz-box-shadow: 3px 7px 21px 7px rgba(6, 78, 253, 0.75); */
+  box-shadow: 3px 7px 21px 7px rgba(6, 78, 253, 0.75) inset;
+  -webkit-box-shadow: 3px 7px 21px 7px rgba(6, 78, 253, 0.75) inset;
+  -moz-box-shadow: 3px 7px 21px 7px rgba(6, 78, 253, 0.75) inset;
+  /* background: rgba(0, 0, 0, 0.77); */
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.contactForm {
+  padding: 0 1rem;
+}
